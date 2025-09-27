@@ -30,6 +30,7 @@ jobs:
 
     - name: Verify Gradle wrapper
       run: |
+        ls -la gradle/wrapper/
         ./gradlew --version
         ./gradlew --help
 
